@@ -369,6 +369,7 @@ p{
 
 .profile{
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   padding: 12% 8%;
@@ -376,7 +377,7 @@ p{
 }
 
  .profile-content h2{
-  text-align: left;
+  text-align: center;
   color: #fafafa;
   font-size: 42px;
  }
