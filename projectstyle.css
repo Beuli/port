@@ -335,11 +335,6 @@ p{
   height: 100vh;
 }
 
-.profile-box{
-  background: #52062c;
-  text-align: center;
-}
-
 .section{
   width:100%;
   min-height: 100vh;
@@ -349,7 +344,50 @@ p{
   padding: 30px 12% 0;
 }
 
+.img-box{
+  display: grid;
+  place-items: center;
+}
+
 .img-box img{
   border-radius: 50%;
   width: 400px
 }
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #a855f7;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #ff004c;
+  width: 50px;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10cm;
+}
+
+ .profile-content h2{
+  text-align: left;
+  color: #fafafa;
+  font-size: 42px;
+ }
+
+ .profile-content h3{ 
+  font-size: 62px;
+  color: #fafafa;
+ }
+
+ .profile-content p{
+  color: rgb(15, 0, 12);
+  font-size: 20px;
+  margin-top: -25%;
+ }
